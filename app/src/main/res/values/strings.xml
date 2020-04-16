@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">LocationApplication</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancle</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAotzaNTUTxi_2iKKad02iOT53vHGrYyfI</string>
+</resources>

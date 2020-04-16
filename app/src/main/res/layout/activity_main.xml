@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="locationapplication.com.locationapplication.MainActivity">
+
+  <Button
+      android:id="@+id/btnStartLocationUpdate"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Start Location Update"/>
+    <Button
+        android:id="@+id/btnStopLocationUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Location Update"/>
+    <Button
+        android:id="@+id/btnGetLastLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Last Location"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Location update will be update when app is foreground"/>
+<TextView
+    android:id="@+id/tvLat"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="0.0"/>
+
+    <TextView
+        android:id="@+id/tvLng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0.0"/>
+
+    <TextView
+        android:id="@+id/tvUpdatedTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10:00"/>
+
+
+    <Button
+        android:id="@+id/btnGotoMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Map"/>
+</LinearLayout>
